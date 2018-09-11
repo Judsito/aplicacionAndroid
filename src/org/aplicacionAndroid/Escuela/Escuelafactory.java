@@ -8,7 +8,7 @@ public class Escuelafactory
 {
 	
 	@Id @Column(length=20) @Requiered
-	puclic String escuela;
+	private String escuela;
 
 	public Profesores profesores;
 
