@@ -8,7 +8,7 @@ public class Edfisica
 {
 
 	@Id @Column(length=20) @Requiered
-	public int horario_edfisica;
+	private int horario_edfisica;
 
 	public Alumnos alumnos;
 
