@@ -7,7 +7,7 @@ import org.aplicacionAndroid.Profesores.Profesores;
 public class Taller
 {
 	@Id @Column(length=20) @Requiered
-	public String horario_taller;
+	private String horario_taller;
 
 	public Alumnos alumnos;
 
