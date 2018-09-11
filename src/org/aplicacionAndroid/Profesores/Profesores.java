@@ -9,20 +9,20 @@ import org.aplicacionAndroid.Escuela.Escuelafactory;
 
 public class Profesores
 {
-	@Column(length=20) @Requiered
-	private String nombre_profesor;
 
-	@Column(length=20) @Requiered
-	private String apellido_profesor;
+	public String nombre_profesor;
 
-	@Id @Column(length=20) @Requiered
-	private int documento_profesor;
 
-	@Column(length=20) @Requiered
-	private String domicilio_profesor;
+	public String apellido_profesor;
 
-	@Column(length=20) @Requiered
-	private String composicion_familia_profesor;
+
+	public int documento_profesor;
+
+
+	public String domicilio_profesor;
+
+
+	public String composicion_familia_profesor;
 
 	public Taller taller;
 

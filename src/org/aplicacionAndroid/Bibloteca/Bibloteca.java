@@ -8,8 +8,8 @@ import org.aplicacionAndroid.Profesores.Profesores;
 public class Bibloteca
 {
 	
-	@Id @Column(length=20) @Requiere
-	private String horario_bibloteca;
+
+	public String horario_bibloteca;
 
 	public Alumnos alumnos;
 
