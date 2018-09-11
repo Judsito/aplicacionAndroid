@@ -11,22 +11,22 @@ import org.aplicacionAndroid.Escuela.Escuelafactory;
 public class Alumnos
 {
 	@Column(length=20) @Requiered 
-	public String nombre_alumno;
+	private String nombre_alumno;
 
 	@Column(length=20) @Requiered
-	public String apellido_alumno;
+	private String apellido_alumno;
 
 	@Id @Column(length=20) @Requiered
-	public int documento_alumno;
+	private int documento_alumno;
 	
 	@Column(length=20) @Requiered
-	public int fecha_nacimiento_alumno;
+	private int fecha_nacimiento_alumno;
 
 	@Column(length=20) @Requiered
-	public String nacionalidad_alumno;
+	private String nacionalidad_alumno;
 	
 	@Column(length=20) @Requiered
-	public String provincia_alumno;
+	private String provincia_alumno;
 
 	public Taller taller;
 
