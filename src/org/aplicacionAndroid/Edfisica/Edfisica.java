@@ -7,7 +7,7 @@ import org.aplicacionAndroid.Profesores.Profesores;
 public class Edfisica
 {
 
-
+	@Id @Column(length=20) @Requiered
 	public int horario_edfisica;
 
 	public Alumnos alumnos;
